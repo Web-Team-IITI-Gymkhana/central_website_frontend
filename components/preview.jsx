@@ -14,7 +14,7 @@ const preview = () => {
         <Hero/>
         <Events/>
         <Members/>
-        <Projects/>
+        {/* <Projects/> */}
         <Contact/>
         <Footer/>
     </div>

@@ -24,8 +24,8 @@ const Nav = () => {
           <div>
             <img src="https://media-exp1.licdn.com/dms/image/C510BAQFbp4mBzmTaFw/company-logo_200_200/0/1582205319278?e=2147483647&v=beta&t=u3PIgLO9UashWYyjokBiy2yoWHCo8wKMvBc8_c5q_3g" />
           </div>
-          <div className={styles.yo}>
-            <h1>Cynaptics Club</h1>
+          <div className={styles.ya}>
+           Cynaptics Club
           </div>
         </div>
 

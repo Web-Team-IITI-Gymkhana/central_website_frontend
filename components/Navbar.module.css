@@ -14,20 +14,49 @@
     background-color: white;
   
 }
+.gavbar {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+  padding-left:30px;
+  padding-right:30px;
+  
+  background-color:black;
+
+}
+.gavbar img{
+  border-radius: 50%;
+    height: 50px;
+    width:50px;
+    margin-top:5px;
+}
 .navbar img{
     border-radius: 50%;
     height: 50px;
     width:50px;
+    margin-top:5px;
   
 }
 .f{
     display:flex;
 }
-.yo{
+.ya{
     padding-top: 10px;
     padding-left: 10px;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
+}
+.ga{
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  color:white;
 }
 .lin{
     text-decoration: none;
