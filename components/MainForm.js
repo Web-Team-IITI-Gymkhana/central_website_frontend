@@ -31,14 +31,14 @@ const MainForm = () => {
 
     return (
         <div className='min-h-screen flex flex-col justify-center bg-white'>
-            <h1 className='text-4xl font-bold text-dark text-center'>Hi there! </h1>
-            <h3 className='text-2xl font-semi-bold text-dark text-center mb-8'>Lets begin by entering some essential details about your website</h3>
+            
+            
             <div>
                 {
                     formElements[activeTab]
                 }
             </div>
-            <div className='flex flex-wrap gap-x-6 mx-auto'>
+            <div className='flex flex-wrap gap-x-6 mx-auto mb-10'>
                 <button
                     disabled={activeTab === 0 ? "disabled" : ""}
                     onClick={() => setActiveTab(prev => prev - 1)}
